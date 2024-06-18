@@ -8,7 +8,7 @@ const { app, server } = require('./socket/index')
 
 // const app = express()
 app.use(cors({
-    origin : ["https://talktidefront.vercel.app/"],
+    origin : ["https://talktidefront.vercel.app"],
     methods : ["POST","GET"],
     credentials : true
 }))
